@@ -3,7 +3,7 @@ body{
 }
 @font-face {
     font-family:Outfit;
-    src: url('Outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    src: url('Outfit1/Outfit-VariableFont_wght.ttf') format('truetype');
 }
 
 .card{
@@ -36,5 +36,4 @@ h3{
     height:225px;
     margin-top:12.5px;
     border-radius:8px;
-
 }
