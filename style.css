@@ -1,20 +1,24 @@
 body{
-    background:hsl(212, 45%, 89%)
+    display: flex;
+    background: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    align-items: center;
+    justify-content:center;
 }
 @font-face {
     font-family:Outfit;
     src: url('Outfit1/Outfit-VariableFont_wght.ttf') format('truetype');
 }
-main{
-    padding-top:15px;
-    width:350px;
-    height:530px;
+
+
+main {
+    width: 330px;
     background-color: #fff;
     text-align: center;
     font-family: Outfit;
-    border-radius:15px;
-    margin:0 auto;
-    margin-top: 100px;
+    border-radius: 15px;
+    padding-bottom:40px
+
 }
 p{
     font-size: 16px;
@@ -31,8 +35,8 @@ h2{
     font-weight: 700;
 }
 .qrcode{
-    width:320px;
-    height:320px;
+    width:300px;
+    height:300px;
     border-radius:8px;
-
+    margin-top:15px;
 }
